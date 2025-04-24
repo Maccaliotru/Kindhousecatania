@@ -1,0 +1,28 @@
+#galleriacontainer{
+    border: 1px solid red;
+    width: 100vw;
+    height: 50vh;
+}
+#galleria{
+    background-image: url(soggiorno.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+#freccegalleria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#frecciasinistra{
+    height: 10vh;
+}
+#frecciadestra{
+    height: 10vh;
+}
