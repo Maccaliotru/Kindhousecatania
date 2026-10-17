@@ -15,37 +15,37 @@
      --------------------------------------------------------- */
   const PHOTOS = [
 
-    { src: 'img/ingressocasa.jpeg', alt: 'Ingresso' },
-    { src: 'img/ingressocasa2.jpeg', alt: 'Ingresso' },
-    { src: 'img/ingressocasa3.jpeg', alt: 'Ingresso' },
+    { src: 'ingressocasa.jpeg', alt: 'Ingresso' },
+    { src: 'ingressocasa2.jpeg', alt: 'Ingresso' },
+    { src: 'ingressocasa3.jpeg', alt: 'Ingresso' },
 
-    { src: 'img/giardino.jpeg', alt: 'Giardino' }, 
+    { src: 'giardino.jpeg', alt: 'Giardino' }, 
 
-    { src: 'img/salone.jpeg', alt: 'Salone' },
-    { src: 'img/salone2.jpeg', alt: 'Salone' },
-    { src: 'img/salone3.jpeg', alt: 'Salone' },
-    { src: 'img/salone4.jpeg', alt: 'Salone' },
-    { src: 'img/salone5.jpeg', alt: 'Salone' },
+    { src: 'salone.jpeg', alt: 'Salone' },
+    { src: 'salone2.jpeg', alt: 'Salone' },
+    { src: 'salone3.jpeg', alt: 'Salone' },
+    { src: 'salone4.jpeg', alt: 'Salone' },
+    { src: 'salone5.jpeg', alt: 'Salone' },
 
-    { src: 'img/cucina.jpeg', alt: 'Cucina' },
-    { src: 'img/cucina2.jpeg', alt: 'Cucina' },
-    { src: 'img/cucina3.jpeg', alt: 'Cucina' },
-    { src: 'img/cucina4.jpeg', alt: 'Cucina' },
+    { src: 'cucina.jpeg', alt: 'Cucina' },
+    { src: 'cucina2.jpeg', alt: 'Cucina' },
+    { src: 'cucina3.jpeg', alt: 'Cucina' },
+    { src: 'cucina4.jpeg', alt: 'Cucina' },
 
-    { src: 'img/cameradaletto.jpeg', alt: 'Camera da letto' },
-    { src: 'img/cameradaletto2.jpeg', alt: 'Camera da letto' },
-    { src: 'img/cameradaletto3.jpeg', alt: 'Camera da letto' },
-    { src: 'img/cameradaletto4.jpeg', alt: 'Camera da letto' },
-    { src: 'img/cameradaletto5.jpeg', alt: 'Camera da letto' },
+    { src: 'cameradaletto.jpeg', alt: 'Camera da letto' },
+    { src: 'cameradaletto2.jpeg', alt: 'Camera da letto' },
+    { src: 'cameradaletto3.jpeg', alt: 'Camera da letto' },
+    { src: 'cameradaletto4.jpeg', alt: 'Camera da letto' },
+    { src: 'cameradaletto5.jpeg', alt: 'Camera da letto' },
 
-    { src: 'img/bagno.jpeg', alt: 'Bagno' },
-    { src: 'img/bagno2.jpeg', alt: 'Bagno' },
-    { src: 'img/bagno3.jpeg', alt: 'Bagno' },
-    { src: 'img/bagno4.jpeg', alt: 'Bagno' },
+    { src: 'bagno.jpeg', alt: 'Bagno' },
+    { src: 'bagno2.jpeg', alt: 'Bagno' },
+    { src: 'bagno3.jpeg', alt: 'Bagno' },
+    { src: 'bagno4.jpeg', alt: 'Bagno' },
 
-    { src: 'img/box1.jpeg', alt: 'Parcheggio Custodito' },
-    { src: 'img/box2.jpeg', alt: 'Parcheggio Custodito' },
-    { src: 'img/box3.jpeg', alt: 'Parcheggio Custodito' },
+    { src: 'box1.jpeg', alt: 'Parcheggio Custodito' },
+    { src: 'box2.jpeg', alt: 'Parcheggio Custodito' },
+    { src: 'box3.jpeg', alt: 'Parcheggio Custodito' },
     
     
 
