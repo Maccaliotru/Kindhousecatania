@@ -62,6 +62,196 @@
 
   ];
 
+  /* ---------------------------------------------------------
+     LINGUE – testi del sito in italiano (it) e inglese (en).
+     Per cambiare un testo modifica il valore della chiave
+     corrispondente. I nomi delle foto della galleria sono in
+     "photos": se aggiungi una nuova descrizione in PHOTOS,
+     aggiungi qui anche la sua traduzione.
+     --------------------------------------------------------- */
+  const I18N = {
+    it: {
+      'skip': "Vai al contenuto",
+      'aria.top': "KHC – torna in alto",
+      'aria.mainNav': "Navigazione principale",
+      'nav.casa': "La casa",
+      'nav.gallery': "Galleria",
+      'nav.services': "Servizi",
+      'nav.contacts': "Contatti",
+      'nav.book': "Prenota",
+      'aria.lang': "Lingua",
+      'hero.logoAlt': "Logo KHC: vulcano con nuvola di fumo",
+      'hero.tagline': "Benvenuti nel cuore pulsante di Catania",
+      'hero.book': "Prenota ora",
+      'hero.gallery': "Guarda la galleria",
+      'aria.scroll': "Scorri verso il basso",
+      'about.eyebrow': "La casa",
+      'gallery.eyebrow': "Galleria",
+      'services.eyebrow': "Servizi",
+      'contacts.eyebrow': "Contatti",
+      'about.title': "Un rifugio contemporaneo<br>nel cuore della città",
+      'about.lead': "Questa elegante casa vacanza, arredata in stile moderno minimal, vi accoglie con ambienti luminosi, linee pulite e un design essenziale che trasmette immediatamente sensazione di ordine, relax e benessere.",
+      'about.p2': "Ogni dettaglio è pensato per unire estetica e funzionalità, creando uno spazio raffinato ma allo stesso tempo caldo e accogliente.",
+      'about.p3': "La posizione centrale è il punto di forza: potrete esplorare Catania a piedi, tra vicoli storici, locali tipici e scorci suggestivi, vivendo la città in modo autentico e senza stress.",
+      'f1.t': "Ambienti luminosi",
+      'f2.t': "Posizione centrale",
+      'f3.t': "Parcheggio custodito",
+      'f4.t': "Calda accoglienza",
+      'f1.p': "Spazi aperti e curati, pensati per il vostro relax.",
+      'f2.p': "Catania a portata di passo, tra vicoli storici e locali tipici.",
+      'f3.p': "Offriamo un parcheggio custodito gratuito: lasciate l'auto in tutta tranquillità.",
+      'f4.p': "Raffinata ma accogliente, per un soggiorno indimenticabile.",
+      'gallery.title': "Gli spazi di KHC",
+      'gallery.hint': "Tocca una foto per ingrandirla e scorri per vedere le altre.",
+      'aria.gallery': "Galleria fotografica",
+      'services.title': "Il tuo soggiorno,<br>senza pensieri",
+      'services.intro': "Possibilità di usufruire dei nostri servizi a prezzi agevolati.",
+      's1.t': "Servizio navetta",
+      's1.p': "Arrivate e ripartite senza pensieri: il transfer vi accompagna dall'aeroporto direttamente a casa e, a fine soggiorno, vi riporta in aeroporto.",
+      's2.t': "Noleggio auto",
+      's2.p': "Volete la massima libertà? Potete noleggiare un'auto per spostarvi a vostro ritmo tra Catania, la costa e i borghi dell'isola.",
+      's3.t': "Escursioni",
+      's3.p': "Scoprite la Sicilia con noi: gite in barca lungo la costa, escursioni sull'Etna e itinerari in tutta l'isola, tra mare, natura e tradizioni.",
+      'services.cta': "Per maggiori informazioni e disponibilità contattaci: saremo felici di organizzare tutto per te.",
+      'services.contact': "Contattaci",
+      'services.whatsapp': "Scrivici su WhatsApp",
+      'book.title': "Prenota ora il tuo soggiorno<br>nel cuore della Sicilia!",
+      'book.note': "Oppure scrivici direttamente su WhatsApp per info e disponibilità.",
+      'book.airbnb': "Prenota su Airbnb",
+      'book.booking': "Prenota su Booking",
+      'contacts.title': "Mettiti in contatto",
+      'c.phone': "Telefono",
+      'c.location': "Posizione",
+      'c.maps': "Apri su Google Maps",
+      'c.follow': "Seguici",
+      'c.message': "Scrivici un messaggio",
+      'c.page': "Visita la pagina",
+      'c.videos': "Guarda i video",
+      'c.book': "Prenota",
+      'footer.tag': "Kind House Catania Apartment · Catania, Sicilia",
+      'footer.cookies': "Gestisci cookie",
+      'footer.rights': "Tutti i diritti riservati.",
+      'lb.dialog': "Galleria ingrandita",
+      'lb.close': "Chiudi",
+      'lb.prev': "Foto precedente",
+      'lb.next': "Foto successiva",
+      'cookie.title': "Utilizziamo i cookie",
+      'cookie.text': "Usiamo cookie tecnici necessari al funzionamento del sito e, con il tuo consenso, cookie di terze parti per statistiche e contenuti esterni. Puoi accettare, rifiutare o scegliere le tue preferenze. Per saperne di più leggi la nostra <a href=\"#\">Cookie Policy</a>.",
+      'cookie.necT': "Necessari",
+      'cookie.necD': "Indispensabili per il funzionamento del sito. Sempre attivi.",
+      'cookie.anT': "Statistici",
+      'cookie.anD': "Ci aiutano a capire come viene usato il sito, in forma aggregata.",
+      'cookie.mkT': "Marketing e contenuti di terze parti",
+      'cookie.mkD': "Mappe, social e servizi esterni che possono impostare propri cookie.",
+      'cookie.reject': "Rifiuta",
+      'cookie.custom': "Personalizza",
+      'cookie.save': "Salva scelte",
+      'cookie.accept': "Accetta tutti",
+      'meta.title': "KHC – Kind House Catania Apartment | Casa vacanza nel centro di Catania",
+      'meta.desc': "Kind House Catania Apartment (KHC): elegante casa vacanza in stile moderno minimal nel cuore di Catania. Scopri la galleria e prenota il tuo soggiorno.",
+      'meta.ogTitle': "KHC – Kind House Catania Apartment",
+      'meta.ogDesc': "Casa vacanza elegante nel cuore pulsante di Catania. Prenota il tuo soggiorno in Sicilia.",
+      'aria.openMenu': "Apri il menu",
+      'aria.closeMenu': "Chiudi il menu",
+      'zoom': "Ingrandisci",
+      'ph': "Foto",
+      photos: { "Ingresso": "Ingresso", "Giardino": "Giardino", "Salone": "Salone", "Cucina": "Cucina", "Camera da letto": "Camera da letto", "Bagno": "Bagno", "Parcheggio Custodito": "Parcheggio Custodito" }
+    },
+    en: {
+      'skip': "Skip to content",
+      'aria.top': "KHC – back to top",
+      'aria.mainNav': "Main navigation",
+      'aria.lang': "Language",
+      'aria.scroll': "Scroll down",
+      'aria.gallery': "Photo gallery",
+      'nav.casa': "The house",
+      'nav.gallery': "Gallery",
+      'nav.services': "Services",
+      'nav.contacts': "Contact",
+      'nav.book': "Book",
+      'hero.logoAlt': "KHC logo: volcano with a plume of smoke",
+      'hero.tagline': "Welcome to the beating heart of Catania",
+      'hero.book': "Book now",
+      'hero.gallery': "View the gallery",
+      'about.eyebrow': "The house",
+      'about.title': "A contemporary retreat<br>in the heart of the city",
+      'about.lead': "This elegant holiday home, furnished in a modern minimal style, welcomes you with bright rooms, clean lines and an essential design that instantly conveys a sense of order, relaxation and well-being.",
+      'about.p2': "Every detail is designed to combine aesthetics and function, creating a refined yet warm and welcoming space.",
+      'about.p3': "The central location is its greatest strength: you can explore Catania on foot, among historic alleyways, traditional eateries and charming corners, experiencing the city authentically and stress-free.",
+      'f1.t': "Bright rooms",
+      'f1.p': "Open, well-kept spaces designed for your relaxation.",
+      'f2.t': "Central location",
+      'f2.p': "Catania within walking distance, among historic alleyways and traditional eateries.",
+      'f3.t': "Secure parking",
+      'f3.p': "We offer free secure parking, so you can leave your car with complete peace of mind.",
+      'f4.t': "Warm welcome",
+      'f4.p': "Refined yet welcoming, for an unforgettable stay.",
+      'gallery.eyebrow': "Gallery",
+      'gallery.title': "The spaces of KHC",
+      'gallery.hint': "Tap a photo to enlarge it and swipe to see the others.",
+      'services.eyebrow': "Services",
+      'services.title': "Your stay,<br>worry-free",
+      'services.intro': "You can take advantage of our services at discounted rates.",
+      's1.t': "Shuttle service",
+      's1.p': "Arrive and leave without a worry: the transfer takes you from the airport straight to the house and, at the end of your stay, back to the airport.",
+      's2.t': "Car rental",
+      's2.p': "Want total freedom? You can rent a car to travel at your own pace between Catania, the coast and the island's villages.",
+      's3.t': "Excursions",
+      's3.p': "Discover Sicily with us: boat trips along the coast, excursions on Mount Etna and itineraries across the whole island, between sea, nature and traditions.",
+      'services.cta': "For more information and availability, get in touch: we'll be happy to organise everything for you.",
+      'services.contact': "Contact us",
+      'services.whatsapp': "Message us on WhatsApp",
+      'book.title': "Book your stay now<br>in the heart of Sicily!",
+      'book.airbnb': "Book on Airbnb",
+      'book.booking': "Book on Booking",
+      'book.note': "Or message us directly on WhatsApp for info and availability.",
+      'contacts.eyebrow': "Contact",
+      'contacts.title': "Get in touch",
+      'c.phone': "Phone",
+      'c.location': "Location",
+      'c.maps': "Open in Google Maps",
+      'c.follow': "Follow us",
+      'c.message': "Send us a message",
+      'c.page': "Visit our page",
+      'c.videos': "Watch our videos",
+      'c.book': "Book",
+      'footer.tag': "Kind House Catania Apartment · Catania, Sicily",
+      'footer.cookies': "Manage cookies",
+      'footer.rights': "All rights reserved.",
+      'lb.dialog': "Enlarged gallery",
+      'lb.close': "Close",
+      'lb.prev': "Previous photo",
+      'lb.next': "Next photo",
+      'cookie.title': "We use cookies",
+      'cookie.text': "We use technical cookies necessary for the site to work and, with your consent, third-party cookies for statistics and external content. You can accept, reject or choose your preferences. To learn more, read our <a href=\"#\">Cookie Policy</a>.",
+      'cookie.necT': "Necessary",
+      'cookie.necD': "Essential for the site to work. Always active.",
+      'cookie.anT': "Statistics",
+      'cookie.anD': "Help us understand how the site is used, in aggregate form.",
+      'cookie.mkT': "Marketing and third-party content",
+      'cookie.mkD': "Maps, social networks and external services that may set their own cookies.",
+      'cookie.reject': "Reject",
+      'cookie.custom': "Customize",
+      'cookie.save': "Save choices",
+      'cookie.accept': "Accept all",
+      'meta.title': "KHC – Kind House Catania Apartment | Holiday home in the heart of Catania",
+      'meta.desc': "Kind House Catania Apartment (KHC): an elegant holiday home in a modern minimal style in the heart of Catania. Browse the gallery and book your stay.",
+      'meta.ogTitle': "KHC – Kind House Catania Apartment",
+      'meta.ogDesc': "An elegant holiday home in the beating heart of Catania. Book your stay in Sicily.",
+      'aria.openMenu': "Open the menu",
+      'aria.closeMenu': "Close the menu",
+      'zoom': "Enlarge",
+      'ph': "Photo",
+      photos: { "Ingresso": "Entrance", "Giardino": "Garden", "Salone": "Living room", "Cucina": "Kitchen", "Camera da letto": "Bedroom", "Bagno": "Bathroom", "Parcheggio Custodito": "Secure parking" }
+    }
+  };
+
+  const DEFAULT_LANG = 'it';
+  const LANG_KEY = 'khc_lang';
+  let lang = DEFAULT_LANG;
+  const t = (key) => I18N[lang][key];
+  const photoAlt = (p) => I18N[lang].photos[p.alt] || p.alt;
+
   const $ = (sel, root = document) => root.querySelector(sel);
 
   /* ---------- Segnaposto per foto mancanti ---------- */
@@ -73,7 +263,7 @@
       `<rect width="800" height="600" fill="url(#g)"/>` +
       `<g fill="none" stroke="#b58a35" stroke-opacity=".55" stroke-width="3">` +
       `<rect x="300" y="200" width="200" height="150" rx="14"/><circle cx="400" cy="275" r="40"/></g>` +
-      `<text x="400" y="425" text-anchor="middle" font-family="Georgia,serif" font-size="26" fill="#b58a35" fill-opacity=".85">Foto ${n}</text>` +
+      `<text x="400" y="425" text-anchor="middle" font-family="Georgia,serif" font-size="26" fill="#b58a35" fill-opacity=".85">${t('ph')} ${n}</text>` +
       `</svg>`;
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   };
@@ -102,7 +292,7 @@
   const setMenu = (open) => {
     nav.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', String(open));
-    toggle.setAttribute('aria-label', open ? 'Chiudi il menu' : 'Apri il menu');
+    toggle.setAttribute('aria-label', open ? t('aria.closeMenu') : t('aria.openMenu'));
   };
   toggle.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
   nav.addEventListener('click', (e) => { if (e.target.closest('a')) setMenu(false); });
@@ -118,11 +308,11 @@
     const li = document.createElement('button');
     li.type = 'button';
     li.className = 'g-item reveal';
-    li.setAttribute('aria-label', `Ingrandisci: ${photo.alt}`);
+    li.setAttribute('aria-label', `${t('zoom')}: ${photoAlt(photo)}`);
 
     const img = new Image();
     img.src = photo.src;
-    img.alt = photo.alt;
+    img.alt = photoAlt(photo);
     img.loading = i < 4 ? 'eager' : 'lazy';
     img.decoding = 'async';
     withFallback(img, photo, i);
@@ -149,13 +339,13 @@
     const p = PHOTOS[current];
     lbImg.onerror = null;
     lbImg.src = p.failed ? placeholder(current + 1) : p.src;
-    lbImg.alt = p.alt;
+    lbImg.alt = photoAlt(p);
     lbImg.onerror = () => {
       lbImg.onerror = null;
       p.failed = true;
       lbImg.src = placeholder(current + 1);
     };
-    lbCaption.textContent = p.alt;
+    lbCaption.textContent = photoAlt(p);
     lbCount.textContent = `${current + 1} / ${PHOTOS.length}`;
 
     // precarica le vicine
@@ -273,4 +463,62 @@
   } else {
     setTimeout(() => { banner.hidden = false; }, 700);
   }
+
+  /* ---------- Cambio lingua (IT / EN) ---------- */
+  const langBtns = document.querySelectorAll('.lang-btn');
+  const metaDesc = $('meta[name="description"]');
+  const metaOgTitle = $('meta[property="og:title"]');
+  const metaOgDesc = $('meta[property="og:description"]');
+
+  const applyLang = (l) => {
+    if (!I18N[l]) return;
+    lang = l;
+    const dict = I18N[l];
+    document.documentElement.lang = l;
+
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      const v = dict[el.dataset.i18n];
+      if (v !== undefined) el.textContent = v;
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach((el) => {
+      const v = dict[el.dataset.i18nHtml];
+      if (v !== undefined) el.innerHTML = v;
+    });
+    document.querySelectorAll('[data-i18n-attr]').forEach((el) => {
+      el.dataset.i18nAttr.split(',').forEach((pair) => {
+        const [attrName, key] = pair.split(':');
+        if (dict[key] !== undefined) el.setAttribute(attrName, dict[key]);
+      });
+    });
+
+    document.title = dict['meta.title'];
+    if (metaDesc) metaDesc.setAttribute('content', dict['meta.desc']);
+    if (metaOgTitle) metaOgTitle.setAttribute('content', dict['meta.ogTitle']);
+    if (metaOgDesc) metaOgDesc.setAttribute('content', dict['meta.ogDesc']);
+
+    // galleria: didascalie e testi per screen reader
+    gallery.querySelectorAll('.g-item').forEach((btn, i) => {
+      const p = PHOTOS[i];
+      btn.setAttribute('aria-label', `${t('zoom')}: ${photoAlt(p)}`);
+      const im = btn.querySelector('img');
+      if (im) im.alt = photoAlt(p);
+    });
+    if (!lb.hidden) showPhoto(current);
+
+    // etichetta del pulsante menu e stato dei pulsanti lingua
+    setMenu(nav.classList.contains('open'));
+    langBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === l)));
+  };
+
+  langBtns.forEach((b) => b.addEventListener('click', () => {
+    applyLang(b.dataset.lang);
+    try { localStorage.setItem(LANG_KEY, b.dataset.lang); } catch (_) { /* storage non disponibile */ }
+  }));
+
+  let startLang = DEFAULT_LANG;
+  try {
+    const saved = localStorage.getItem(LANG_KEY);
+    if (saved && I18N[saved]) startLang = saved;
+  } catch (_) { /* storage non disponibile */ }
+  applyLang(startLang);
 })();
